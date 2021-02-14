@@ -44,7 +44,7 @@ background-color: #DAE7FE;
 
 }
 #nav-tab{
-  margin-top: 50px;
+  margin-top: -40px;
   border: none;
 }
 #nav-home-tab:focus{
@@ -88,6 +88,9 @@ nav {
   margin-left:20px;
   text-align: left;
   padding: 10px;
-
-
 }
+
+@media screen and (max-width: 800px) {
+.header-title{
+display:none;
+}}
